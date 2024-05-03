@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import pandas as pd
 import streamlit as st
 from clean_data import clean_data
@@ -24,3 +25,19 @@ cleaned_data['Sentiment_VADER'] = cleaned_data['comment'].apply(analyze_sentimen
 
 # Generate word cloud
 generate_word_cloud(cleaned_data['lemmatized_text'].str.cat(sep=' '))
+=======
+# main.py
+
+# Import necessary libraries
+import pandas as pd
+from preprocessing import clean_text, tokenize_and_remove_stopwords, lemmatize_tokens
+from modeling import train_model
+from evaluation import evaluate_model
+
+def main():
+    # Your main code logic here
+    pass
+
+if __name__ == "__main__":
+    main()
+>>>>>>> origin/main
