@@ -3,3 +3,5 @@ textblob
 textblob
 vaderSentiment
 google-api-python-client
+matplotlib
+
