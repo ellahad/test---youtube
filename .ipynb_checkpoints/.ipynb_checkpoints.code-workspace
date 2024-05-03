@@ -1,0 +1,19 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../.venv"
+		},
+		{
+			"path": "../__pycache__"
+		},
+		{
+			"path": "../Apple Vision Pro Sentiment Analysis.ipynb - Colab_files"
+		},
+		{
+			"path": "../MyFlaskApp"
+		}
+	]
+}
